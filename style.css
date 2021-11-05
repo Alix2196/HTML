@@ -1,0 +1,78 @@
+
+.contenido{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 10px;
+}
+.perritos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen{
+    justify-content: center;
+    width: 300px;
+}
+.conte_image{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+
+}
+body{
+    background-color: rgb(119, 234, 211)}
+
+.conte_image p:hover {
+    cursor: pointer;
+}
+.li{
+    justify-content: center; 
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: #1A836F;
+    font-family: 'Lobster', cursive;
+}
+textarea-email address
+ {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center; 
+    font-size: 2rem;
+}
+.formulario_conte{
+    display: flex;
+    justify-content: center;
+}
+.formulario_conte,formulario {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    animation-name: ejemplo;
+    animation-duration: 5s;
+}
+
+@keyframes ejemplo {
+    10%{ background-color: green;}
+    30% {background-color: grey;}
+    60% {background-color: indigo;}
+}
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-top: 0;
+    background-color: #1A836F;
+}
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.main-nav__item {
+    display: inline-block;
+}
